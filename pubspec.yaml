@@ -1,0 +1,90 @@
+name: scanner
+version: 1.0.0+1
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  # Core Flutter dependencies
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Networking and HTTP-related packages
+  http: ^1.2.1
+  dio: ^5.4.3+1
+
+  # State management
+  provider: ^6.1.2
+
+  # Storage and preferences
+  shared_preferences: ^2.2.3
+  flutter_secure_storage: ^9.2.2
+  localstorage: ^5.0.0
+
+  # Connectivity and permissions
+  connectivity_plus: ^6.0.3
+  permission_handler: ^11.3.1
+
+  # Camera and scanning
+  camera: ^0.11.0+1
+  mobile_scanner: ^6.0.3
+
+  # UI components and utilities
+  flutter_picker: ^2.1.0
+  flutter_switch: ^0.3.2
+  cupertino_icons: ^1.0.6
+  url_launcher: ^6.1.7
+  shimmer: ^3.0.0
+
+
+  # Media and signature handling
+  image_picker: ^1.1.2
+  signature: ^5.5.0
+  flutter_signature_pad: ^3.0.1
+
+  # Device information
+  device_info_plus: ^11.2.1
+
+  # UUID
+  uuid: ^4.5.0
+
+  # Database
+  sqflite: ^2.3.3+1
+
+  # Caching and location
+  cached: ^1.7.0
+  location: ^7.0.1
+  dropdown_button2: ^2.3.9
+
+  # Miscellaneous
+  http_parser: any
+#  geolocator: ^14.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.9
+
+
+
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/truck.jpg
+    - assets/Loading.jpg
+    - assets/settings.png
+    - assets/Unloading.jpg
+    - assets/icons/SPIL_Cloud_Logo_New_2.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/icons/appstore.png"
